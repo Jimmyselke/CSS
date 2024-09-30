@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS Padding, Margin, Border</title>
+    <style>
+        /* Contenedor general */
+        .marco {
+            width: 300px;
+            height: 300px;
+            border: 10px solid red; /* Borde externo en rojo */
+            padding: 20px; /* Relleno interno */
+            background-color: lightblue; /* Color de fondo */
+        }
+
+        /* Contenido dentro del marco */
+        .contenido {
+            height: 100%;
+            background-color: lightgreen;
+            border: 5px solid blue; /* Borde interno en azul */
+            padding: 10px; /* Espacio interno entre el borde y el contenido */
+            margin: 10px; /* Margen entre el contenido y el marco */
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de Margin, Padding, Border</h1>
+
+    <div class="marco">
+        <div class="contenido">
+            <p>Este es el contenido dentro del marco.</p>
+        </div>
+    </div>
+</body>
+</html>
