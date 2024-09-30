@@ -3,34 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de CSS Padding, Margin, Border</title>
+    <title>Explicación de CSS Margin, Padding, Border, Width y Height</title>
     <style>
-        /* Contenedor general */
-        .marco {
-            width: 300px;
+        /* Estilos para el contenedor que representa el marco */
+        .container {
+            width: 500px;
             height: 300px;
-            border: 10px solid red; /* Borde externo en rojo */
-            padding: 20px; /* Relleno interno */
-            background-color: lightblue; /* Color de fondo */
+            margin: 50px;
+            padding: 30px;
+            border: 15px solid #009688; /* Borde en color verde oscuro */
+            background-color: #f0f0f0; /* Color de fondo gris claro */
         }
 
-        /* Contenido dentro del marco */
-        .contenido {
+        /* Estilos para el contenido interno */
+        .content {
+            width: 100%;
             height: 100%;
-            background-color: lightgreen;
-            border: 5px solid blue; /* Borde interno en azul */
-            padding: 10px; /* Espacio interno entre el borde y el contenido */
-            margin: 10px; /* Margen entre el contenido y el marco */
+            padding: 40px;
+            background-color: #ff9800; /* Color del contenido (naranja) */
+            border: 10px solid #3f51b5; /* Borde azul oscuro */
+        }
+
+        /* Estilos generales para las explicaciones */
+        .explanation {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .explanation h2 {
+            color: #009688;
         }
     </style>
 </head>
 <body>
-    <h1>Ejemplo de Margin, Padding, Border</h1>
 
-    <div class="marco">
-        <div class="contenido">
-            <p>Este es el contenido dentro del marco.</p>
-        </div>
+    <div class="explanation">
+        <h1>Explicación de Margin, Padding, Border, Width y Height</h1>
+
+        <h2>1. CSS Margin</h2>
+        <p>El <strong>margin</strong> en CSS se utiliza para crear espacio alrededor de los elementos, fuera de sus bordes. En este ejemplo, el margen está representado por el espacio entre el borde verde oscuro y el borde de la página.</p>
+
+        <h2>2. CSS Padding</h2>
+        <p>El <strong>padding</strong> en CSS se refiere al espacio interior de un elemento, es decir, el espacio entre el contenido y el borde del elemento. En este ejemplo, el relleno es el área blanca entre el contenido naranja y el borde azul oscuro.</p>
+
+        <h2>3. CSS Border</h2>
+        <p>El <strong>border</strong> en CSS es el borde que rodea el padding y el contenido. Puedes especificar el grosor, el estilo y el color del borde. En este ejemplo, hay dos bordes: uno alrededor del contenedor principal (verde oscuro) y otro alrededor del contenido (azul oscuro).</p>
+
+        <h2>4. CSS Width y Height</h2>
+        <p>Las propiedades <strong>width</strong> (ancho) y <strong>height</strong> (altura) en CSS se utilizan para definir el tamaño de un elemento. En este ejemplo, el ancho del contenedor es de 500px y la altura es de 300px. El contenido interno tiene un relleno adicional que también ajusta su tamaño.</p>
     </div>
+
+    <!-- Representación gráfica del marco con border, padding y margin -->
+    <div class="container">
+        <div class="content"></div>
+    </div>
+
 </body>
 </html>
