@@ -9,19 +9,19 @@
         .container {
             width: 500px;
             height: 300px;
-            margin: 50px;
-            padding: 30px;
-            border: 15px solid #009688; /* Borde en color verde oscuro */
-            background-color: #f0f0f0; /* Color de fondo gris claro */
+            margin: 40px; /* Margin: espacio fuera del borde */
+            padding: 25px; /* Padding: espacio dentro del borde */
+            border: 10px solid #FF6347; /* Borde color tomate */
+            background-color: #4682B4; /* Azul acero */
         }
 
         /* Estilos para el contenido interno */
         .content {
             width: 100%;
             height: 100%;
-            padding: 40px;
-            background-color: #ff9800; /* Color del contenido (naranja) */
-            border: 10px solid #3f51b5; /* Borde azul oscuro */
+            padding: 30px; /* Padding del contenido */
+            background-color: #FFD700; /* Color dorado */
+            border: 5px solid #8A2BE2; /* Borde morado */
         }
 
         /* Estilos generales para las explicaciones */
@@ -32,29 +32,29 @@
         }
 
         .explanation h2 {
-            color: #009688;
+            color: #FF6347;
         }
     </style>
 </head>
 <body>
 
     <div class="explanation">
-        <h1>Explicación de Margin, Padding, Border, Width y Height</h1>
+        <h1>Explicación de CSS Margin, Padding, Border, Width y Height</h1>
 
         <h2>1. CSS Margin</h2>
-        <p>El <strong>margin</strong> en CSS se utiliza para crear espacio alrededor de los elementos, fuera de sus bordes. En este ejemplo, el margen está representado por el espacio entre el borde verde oscuro y el borde de la página.</p>
+        <p>El <strong>margin</strong> es el espacio que rodea un elemento, pero que se encuentra fuera de su borde. Es útil para separar elementos entre sí. En este ejemplo, el margen es el espacio entre el borde color tomate y el borde de la página o cualquier otro elemento cercano.</p>
 
         <h2>2. CSS Padding</h2>
-        <p>El <strong>padding</strong> en CSS se refiere al espacio interior de un elemento, es decir, el espacio entre el contenido y el borde del elemento. En este ejemplo, el relleno es el área blanca entre el contenido naranja y el borde azul oscuro.</p>
+        <p>El <strong>padding</strong> es el espacio interior de un elemento, entre su contenido y su borde. En este ejemplo, el padding está representado por el espacio azul acero entre el borde morado y el contenido dorado.</p>
 
         <h2>3. CSS Border</h2>
-        <p>El <strong>border</strong> en CSS es el borde que rodea el padding y el contenido. Puedes especificar el grosor, el estilo y el color del borde. En este ejemplo, hay dos bordes: uno alrededor del contenedor principal (verde oscuro) y otro alrededor del contenido (azul oscuro).</p>
+        <p>El <strong>border</strong> es la línea que rodea el padding y el contenido. Puedes ajustar el grosor, color y estilo del borde. En este ejemplo, el borde exterior es de color tomate y el borde interior es morado, separando los diferentes niveles de contenido.</p>
 
         <h2>4. CSS Width y Height</h2>
-        <p>Las propiedades <strong>width</strong> (ancho) y <strong>height</strong> (altura) en CSS se utilizan para definir el tamaño de un elemento. En este ejemplo, el ancho del contenedor es de 500px y la altura es de 300px. El contenido interno tiene un relleno adicional que también ajusta su tamaño.</p>
+        <p>Las propiedades <strong>width</strong> (ancho) y <strong>height</strong> (altura) controlan el tamaño de los elementos. En este ejemplo, el contenedor tiene un ancho de 500px y una altura de 300px, ajustados por los valores del padding y border.</p>
     </div>
 
-    <!-- Representación gráfica del marco con border, padding y margin -->
+    <!-- Representación gráfica del marco con margin, padding, border y content -->
     <div class="container">
         <div class="content"></div>
     </div>
