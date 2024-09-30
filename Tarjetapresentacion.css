@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; 
+    background-color: #007BFF; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,25 +14,25 @@ body {
     height: 200px; 
     padding: 20px; 
     margin: 20px;
-    border: 2px solid #007BFF; 
+    border: 2px solid #f0f0f0; 
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     text-align: center; 
 
 .tarjeta h2 {
     font-size: 24px;
-    color: #007BFF; 
+    color: #333333; #555555
     margin-bottom: 10px;
 }
 
 .tarjeta h3 {
     font-size: 18px;
-    color: #555555;
+    color: #007BFF;
     margin-bottom: 15px;
 }
 
 .tarjeta p {
     font-size: 14px;
-    color: #333333; 
+    color: #555555; 
     line-height: 1.5; 
 }
