@@ -1,1 +1,24 @@
+/* Estilo para el título utilizando el ID */
+#titulo {
+    color: darkblue;
+    font-size: 36px;
+}
 
+/* Estilos comunes para los párrafos utilizando la clase */
+.texto {
+    color: gray;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Estilos combinados para el botón */
+.boton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#botonEnviar {
+    background-color: lightgreen;
+    border-color: darkgreen;
+}
