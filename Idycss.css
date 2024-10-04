@@ -1,0 +1,26 @@
+/* Estilos para el título con clase 'titulo' */
+.titulo {
+    font-size: 2.5em;
+    color: #333333;
+    text-align: center;
+}
+
+/* Estilos para el párrafo con id 'destacado' */
+#destacado {
+    background-color: #f0e68c;
+    color: #ff0000;
+    padding: 10px;
+}
+
+/* Estilos comunes para los párrafos con clase 'contenido' */
+.contenido {
+    color: #555555;
+    margin: 15px 0;
+}
+
+/* Estilos específicos para el párrafo con clase 'contenido' y id 'especial' */
+#especial {
+    background-color: #d3d3d3;
+    border: 2px solid #000000;
+    padding: 10px;
+}
