@@ -11,8 +11,12 @@
     <h1 class="titulo">Este es el título principal</h1>
 
     <!-- Dos párrafos con el mismo id 'destacado' (incorrecto) -->
-    <p id="destacado">Este es el primer párrafo destacado.</p>
-    <p id="destacado">Este es el segundo párrafo destacado.</p>
+    <p id="destacado">No repetir el id: El atributo id debe ser único en la página. 
+        Si se repite, causará problemas con CSS y JavaScript, ya que estos solo reconocerán 
+        el primer elemento con ese id.</p>
+   
+    <p id="destacado">Especificidad id vs clase: En CSS, los id tienen más peso que las clases. 
+        Si un elemento tiene ambos, el estilo definido por el id prevalecerá sobre el de la clase.</p>
 
     <!-- Tres párrafos con la clase 'contenido' -->
     <p class="contenido">Este es el primer párrafo de contenido.</p>
